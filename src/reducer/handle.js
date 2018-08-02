@@ -3,7 +3,7 @@ const initialState = {
   age: "",
   address: ""
 };
-const handle = (state = initialState, action) => {
+const Statehandler = (state = initialState, action) => {
   switch (action.type) {
     case "FORM_SUBMIT":
       return {
@@ -16,4 +16,4 @@ const handle = (state = initialState, action) => {
       return state;
   }
 };
-export default handle;
+export default Statehandler;

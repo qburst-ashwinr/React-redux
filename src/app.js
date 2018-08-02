@@ -21,7 +21,7 @@ const mapDispatchToProps = dispatch => ({
     )
 });
 
-class Example extends React.Component {
+class ReduxForm extends React.Component {
   render() {
     return (
       <div className="mainClass">
@@ -46,4 +46,4 @@ class Example extends React.Component {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Example);
+)(ReduxForm);
